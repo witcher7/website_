@@ -1,0 +1,95 @@
+
+// console.log("Hello")
+// let a 
+// console.log(a)
+// a = "Hello I am a string"
+// console.log()
+
+// a = 10
+// // console.log("The value of a:",a)
+
+// a = "Rishabh Gulati"
+
+// // console.log("Hi my name is",a)
+// JavaScript Objects
+// You have already learned that JavaScript variables are containers for data values.
+
+// This code assigns a simple value (Fiat) to a variable named car:
+
+// // let car = "Fiat";
+
+// Objects are variables too. But objects can contain many values.
+
+// This code assigns many values (Fiat, 500, white) to a variable named car:
+
+// const car = {type:"Fiat", model:"500", color:"white"};
+// console.log(car)
+
+
+// console.log(car.model)
+// console.log(car.type)
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+//   };
+
+// # INSIDE  ONLY VARIABLE ---> F
+//# Array
+// const array_name = [item1, item2, ...];      
+const cars = ["Volvo","BMW", "Benz"]
+ //            //0    //1    //2
+
+ // ARRAY IS A CONTIGUOS STORING VARIABLE IN WHICH DATA IS STORED NEXT BY NEXT TO ELEMENT
+ // and multiple elements can be stored under the name of the single variable
+
+cars[1] = "Audi"
+console.log(cars)
+
+console.log(cars.length)
+
+// # SORT MY ARRAY
+
+
+
+// # PRE DEFINED TOOLS AVAILABLE WITH ARRAY SO THAT OUR WORK CAN BE REDUCED
+
+// // let check = [20,10,3,-3,100,1]
+// //         //   0   1 2 3  4  5   ---> 
+// // console.log(check[check.length -1])
+
+// let name = "Rish"
+// console.log("name")  // it will print name
+// console.log(name) // it will print Rish
+
+// let rish = [1,2,3,4,5] // I am storing numbers
+// let gul = ["ans1","ans2","ans3"] //not valid
+// /// [ ] ---> used for array --> 2 days
+
+
+// array [] 
+// object {}
+// # variables --> I dont have to worry
+// # let variable_name = 10 // "NAME"
+
+// let name = "ODIN"
+// print(name) //ODIN
+
+// // I WANT TO STORE MUTLIPLE THINGS, but I want to give only name
+// let file1 = "check"
+// let file2 = "new file"
+// let file3 = "ans file"
+// let file4 = "home file"
+
+// let file = ["check","new file","ans file","home file"]
+//     ///      0        1          2         3 
+// console.log(file) // it will print whole array
+// console.log(file[2])
+let rish = [1,2,3,4,5]
+for (let index = 0; index < rish.length; index++) {
+    console.log(rish[index])
+}
+rish.push(100)
+console.log(rish)
